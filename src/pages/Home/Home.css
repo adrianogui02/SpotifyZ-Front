@@ -1,0 +1,13 @@
+/* Home.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .home__body {
+    display: flex;
+    flex: 1;
+  }
+  

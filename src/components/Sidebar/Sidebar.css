@@ -1,0 +1,40 @@
+.sidebar {
+    min-width: 230px;
+    background-color: #111111;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+/* Button.css */
+.button {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    display: flex; /* Torna os elementos do botão flexíveis */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    justify-content: start; /* Alinha horizontalmente os itens no início (à esquerda) */
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px; /* Adicione um preenchimento à esquerda */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    color: #1db954;
+    
+  }
+  
+  .button svg {
+    margin-right: 8px;
+    padding-right: 8px; /* Adicione padding à direita do ícone */
+    
+  }

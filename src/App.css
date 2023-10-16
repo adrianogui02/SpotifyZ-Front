@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app__header {
+  padding: 20px;
+  background-color: #131313;
+  text-align: center;
+}
+
+.app__headerImage {
+  width: 150px;
+}
+
+.app__body {
+  display: flex;
+  flex: 1;
+  background-color: #111111;
+  color: white;
+}
+
+.app__sidebar {
+  min-width: 230px;
+  background-color: #040404;
+  padding: 20px;
+}
+
+.app__mainContent {
+  flex: 1;
+  padding: 20px;
+}

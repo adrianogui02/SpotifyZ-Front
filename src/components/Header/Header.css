@@ -1,0 +1,40 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #131313;
+  }
+  
+  .header__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .header__text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .header__right .button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header__right .button:hover {
+    background-color: #1ed760;
+    color: white;
+  }
+  
+  
