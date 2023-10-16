@@ -8,7 +8,6 @@ function MainContent({ content }) {
     if (content === "top-musicas") {
       renderedContent = 
         <div> 
-            <h2>Top Musicas</h2>
             <Musicas/>
         </div>;
 

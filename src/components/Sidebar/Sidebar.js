@@ -17,15 +17,15 @@ function Sidebar({ onButtonClick }) {
         <h2>Explorer</h2>
       <button className="button" onClick={() => handleClick("top-musicas")}>
         <MusicNoteIcon/>
-        Top Musicas
+        Musicas
       </button>
       <button className="button" onClick={() => handleClick("conteudo2")}>
         <MicExternalOnIcon/>
-        Top Artistas
+        Artistas
       </button>
       <button className="button" onClick={() => handleClick("conteudo3")}>
         <LibraryMusicIcon/> 
-        Top Albuns
+        Albuns
       </button>
     </div>
   );

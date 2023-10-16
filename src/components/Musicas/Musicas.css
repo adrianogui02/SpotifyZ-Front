@@ -7,30 +7,51 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    width: fit-content;
     height:fit-content; /* Isso garante que a div ocupe toda a altura da tela */
-    background-color: #1db954;
+    background-color: #1A1A1A;
     border-radius: 20px;
     padding: 10px;
 
   }
-  
-.date-picker{
-    background-color: black;
-    color: white;
+.container{
     display: flex;
-    width: 200px;
-    border: none;
-
+    align-items: center;
+    justify-content:space-between;
 }
-.date-picker:hover{
-    background-color: aliceblue;
-    border: none;
+
+.button-opt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    color: #1ed760;
+    width: 100px;
+    border: 1px solid #1ed760;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button-opt:hover{
+    background-color: #1ed760;
+    color: black;
+    width: 100px;
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.filter-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .input-date{
     background-color: black;
     color: white;
-    display: flex;
     width: 200px;
     height: 40px;
     border: none;
