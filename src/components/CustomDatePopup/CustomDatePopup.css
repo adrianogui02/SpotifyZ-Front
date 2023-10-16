@@ -12,9 +12,39 @@
   }
   
   .custom-popup {
-    background: white;
+    background: #1A1A1A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   }
+
+  .button-popup{
+    background-color: #1ed760;
+    border: none;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .box-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-item {
+    margin-bottom: 10px; /* Espaçamento entre os itens verticalmente */
+}
+.date-inputs {
+    margin-bottom: 20px; /* Espaçamento entre os inputs e o botão verticalmente */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start; /* Alinha o botão no canto esquerdo */
+}
+
+
+
   
