@@ -1,11 +1,17 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import "./App.css";
+import { PrimeReactProvider } from 'primereact/api';
+//theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+        
 
 function App() {
   return (
     <div className="app">
-      <Home />
+       <PrimeReactProvider>
+          <Home />
+       </PrimeReactProvider>
     </div>
   );
 }

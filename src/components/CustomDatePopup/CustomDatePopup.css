@@ -45,6 +45,9 @@
     justify-content: flex-start; /* Alinha o botão no canto esquerdo */
 }
 
-
+.p-datepicker table td > span.p-highlight {
+  color: black;
+  background: #1ed760;
+}
 
   
